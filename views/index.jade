@@ -1,0 +1,8 @@
+block content
+	h1= title
+	a(href=authorize_uri, title='View login page') Authorize weibo access
+	form(action='/', method='post')
+		span code
+		input(type='text', name="code", id="code")
+		div#button
+			input(type='submit', value='send')
