@@ -9,6 +9,7 @@
     "express": "3.0.0rc2",
     "jade": "*",
     "stylus": "*",
-    "request": "*"
+    "request": "*",
+    "request": "*",
   }
 }
